@@ -1,38 +1,96 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(179, 255, 229);
+}
+
+.header {
   text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 70px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+}
+
+.random {
+  margin-left: 40px;
+}
+
+.random > h1 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+
+.randomB {
+  margin-top: 30px;
+  margin-left: 160px;
+}
+
+.randomB > button {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(185, 120, 245);
+  transition: 1s ease;
+  margin-left: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.randomB > button:hover {
+  transition: 1s ease;
+  background-color: rgb(49, 6, 90);
   color: white;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.tag > h1 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tag-input > input {
+  width: 200px;
+  margin-left: 160px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.tagB {
+  margin-left: 210px;
+  margin-top: 10px;
+}
+
+.tagB > button {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(185, 120, 245);
+  transition: 1s ease;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tagB > button:hover {
+  transition: 1s ease;
+  background-color: rgb(49, 6, 90);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
 }
